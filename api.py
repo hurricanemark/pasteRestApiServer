@@ -41,7 +41,8 @@ class API:
 		request.environ['PATH_INFO'] = request.environ['PATH_INFO'].rstrip('/')
 
 	def _homepage(self):
-		return static_file("index.html", root=os.getcwd()+'\\html') # We return the "index.html" file as a static file.
+    		# return the index.html file as a static file
+		return static_file("index.html", root=os.getcwd()+'\\html') 
 
 	def _doAction(self):
 		# service the landing page with json reponse
