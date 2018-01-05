@@ -1,0 +1,5 @@
+<config>
+
+	<APIserver serverName="serverAPI" local="false"  ip="54.200.242.42" port="7777"/>
+
+</config>
