@@ -13,8 +13,10 @@ pip install bottle paste
 #3. run it:
 python3 pasteRestApiServer
 
-#4. If you use Chrome, chances are you have RESTclient add-on, point browser to 127.0.0.1:7777/restapionmark
-Else if yours is Firefox, search and allow add-on for RESTclient.  
-Then point browser to [ip:port]/restapionmark or [ip:port]/action
+#4. If you use Chrome, chances are you have RESTclient add-on, 
+    point browser to http://127.0.0.1:7777/restapionmark
+
+    Else if yours is Firefox, search and allow add-on for RESTclient.  
+    Then point the browser to http://[ip:port]/restapionmark or http://[ip:port]/action
 
 et, voila!
